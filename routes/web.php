@@ -24,5 +24,5 @@ Route::group(['namespace'=> 'Everan'], function () {
 Route::get('/home', 'HomeController@index')->name('home');
 
 Route::group(['namespace'=>'Wechat'], function () {
-    Route::any('/wechat', 'WechatController@serve');
+    Route::any('wechat', 'WechatController@serve');
 });
