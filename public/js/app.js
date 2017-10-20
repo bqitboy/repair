@@ -14693,7 +14693,7 @@ Vue.use(__WEBPACK_IMPORTED_MODULE_0_element_ui___default.a); //use element
 
 //引入组件
 Vue.component('example', __webpack_require__(109));
-Vue.component('login', __webpack_require__(112));
+Vue.component('Login', __webpack_require__(112));
 
 var app = new Vue({
   el: '#app'

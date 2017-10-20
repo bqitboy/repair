@@ -9,8 +9,8 @@ class WechatController extends Controller
     public function serve()
     {
         $app = app('wechat');
-        $app->server->push(function($message){
-            return "欢迎关注 everan！";
+        $app->server->setMessageHandler(function($message){
+            return "欢迎关注 Everan！";
         });
 
         return $app->server->serve();
